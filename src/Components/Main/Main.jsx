@@ -1,6 +1,19 @@
 import React from "react";
 import "../../assets/css/Main.css";
+
+// import image
 import img1 from "../../assets/img/img1.jpg";
+import img2 from "../../assets/img/img2.jpg";
+import img3 from "../../assets/img/img3.jpg";
+import img4 from "../../assets/img/img4.jpg";
+import img5 from "../../assets/img/img5.jpg";
+import img6 from "../../assets/img/img6.jpg";
+import img7 from "../../assets/img/img7.jpg";
+import img8 from "../../assets/img/img8.jpg";
+import img9 from "../../assets/img/img9.jpg";
+
+import { HiOutlineLocationMarker } from "react-icons/hi";
+import { HiOutlineClipboardCheck } from "react-icons/hi";
 
 const Data = [
   {
@@ -13,86 +26,86 @@ const Data = [
     description:
       "The epitome of romance, Bora Bora is one of the best ravel destinations in the World. This place is known for its luxurious stays and adventurous activities.",
   },
-  // {
-  //   id: 2,
-  //   imgSrc: img2,
-  //   destTitle: "Machu Picchu",
-  //   location: "Peru",
-  //   grade: "CULTURAL RELAX",
-  //   fees: "₹60,000",
-  //   description:
-  //     "Huayna Picchu is a mountain in Peru, rising over Machu Picchu, the so-called Lost City of Incas. This place is popular among tourists as the sunrise from the Sun Gate is simply Spectaular",
-  // },
-  // {
-  //   id: 3,
-  //   imgSrc: img3,
-  //   destTitle: "Great Barrier Reef",
-  //   location: "Australia",
-  //   grade: "CULTURAL RELAX",
-  //   fees: "₹70,000",
-  //   description:
-  //     "One of the most remarkable Australian natural gifts is the Great Barrier Reef. The hallmark of this place is 'lavish' and 'beauty'. Always interesting to be in this place",
-  // },
-  // {
-  //   id: 4,
-  //   imgSrc: img4,
-  //   destTitle: "Cappadocia",
-  //   location: "Turkey",
-  //   grade: "CULTURAL RELAX",
-  //   fees: "₹80,000",
-  //   description:
-  //     "According to the World Tourism Ranking, 45 Million people visit Turkey each year, and from that about 2 Million come to visit Cappadocia. This place is known for its luxurious stays and adventurous activities",
-  // },
-  // {
-  //   id: 5,
-  //   imgSrc: img5,
-  //   destTitle: "Guanajuato",
-  //   location: "Mexico",
-  //   grade: "CULTURAL RELAX",
-  //   fees: "₹1,10,000",
-  //   description:
-  //     "A city in central Mexico, Guanajuato is known for its history of silver mining and coloial architecture. The houses in the city are very attractively painted with the most bright colors available. Always welcome",
-  // },
-  // {
-  //   id: 6,
-  //   imgSrc: img6,
-  //   destTitle: "Cinque Terre",
-  //   location: "Italy",
-  //   grade: "CULTURAL RELAX",
-  //   fees: "₹84,000",
-  //   description:
-  //     "The vibrant hues of the houses are its benchmark and explain the beauty of this place. Also if you are a foodie and love seafood, you will be exhilarated with the choice yoou are about to get here. Happy exploring great food!",
-  // },
-  // {
-  //   id: 7,
-  //   imgSrc: img7,
-  //   destTitle: "Angkor Wat",
-  //   location: "Cambodia",
-  //   grade: "CULTURAL RELAX",
-  //   fees: "₹79,000",
-  //   description:
-  //     "Angkot wat represents the entire range of Khmer art from the 9th to the 15th century. This temple is considered the heart and soul of Cambodia. This place is known for its luxurious stays and adventurous activities",
-  // },
-  // {
-  //   id: 8,
-  //   imgSrc: img8,
-  //   destTitle: "Taj Mahal",
-  //   location: "India",
-  //   grade: "CULTURAL RELAX",
-  //   fees: "₹30,000",
-  //   description:
-  //     "An immense mausoleum of white marble, built-in Agra by Mughal emperor Shah Jahan in memory of his wife Mumtaz, the monument is breathtakingly beautiful. This place is known for its luxurious stays and adventurous activities",
-  // },
-  // {
-  //   id: 9,
-  //   imgSrc: img9,
-  //   destTitle: "Bali Island",
-  //   location: "Indonesia",
-  //   grade: "CULTURAL RELAX",
-  //   fees: "₹50,000",
-  //   description:
-  //     "Bali is an Indonesian Island and one of the best holiday destinations in the Indonesian archipelago. Bali is known for its volcanic mountains, history, art & culture, food, temples and beautiful sandy beaches.",
-  // },
+  {
+    id: 2,
+    imgSrc: img2,
+    destTitle: "Machu Picchu",
+    location: "Peru",
+    grade: "CULTURAL RELAX",
+    fees: "₹60,000",
+    description:
+      "Huayna Picchu is a mountain in Peru, rising over Machu Picchu, the so-called Lost City of Incas. This place is popular among tourists as the sunrise from the Sun Gate is simply Spectaular",
+  },
+  {
+    id: 3,
+    imgSrc: img3,
+    destTitle: "Great Barrier Reef",
+    location: "Australia",
+    grade: "CULTURAL RELAX",
+    fees: "₹70,000",
+    description:
+      "One of the most remarkable Australian natural gifts is the Great Barrier Reef. The hallmark of this place is 'lavish' and 'beauty'. Always interesting to be in this place",
+  },
+  {
+    id: 4,
+    imgSrc: img4,
+    destTitle: "Cappadocia",
+    location: "Turkey",
+    grade: "CULTURAL RELAX",
+    fees: "₹80,000",
+    description:
+      "According to the World Tourism Ranking, 45 Million people visit Turkey each year, and from that about 2 Million come to visit Cappadocia. This place is known for its luxurious stays and adventurous activities",
+  },
+  {
+    id: 5,
+    imgSrc: img5,
+    destTitle: "Guanajuato",
+    location: "Mexico",
+    grade: "CULTURAL RELAX",
+    fees: "₹1,10,000",
+    description:
+      "A city in central Mexico, Guanajuato is known for its history of silver mining and coloial architecture. The houses in the city are very attractively painted with the most bright colors available. Always welcome",
+  },
+  {
+    id: 6,
+    imgSrc: img6,
+    destTitle: "Cinque Terre",
+    location: "Italy",
+    grade: "CULTURAL RELAX",
+    fees: "₹84,000",
+    description:
+      "The vibrant hues of the houses are its benchmark and explain the beauty of this place. Also if you are a foodie and love seafood, you will be exhilarated with the choice yoou are about to get here. Happy exploring great food!",
+  },
+  {
+    id: 7,
+    imgSrc: img7,
+    destTitle: "Angkor Wat",
+    location: "Cambodia",
+    grade: "CULTURAL RELAX",
+    fees: "₹79,000",
+    description:
+      "Angkot wat represents the entire range of Khmer art from the 9th to the 15th century. This temple is considered the heart and soul of Cambodia. This place is known for its luxurious stays and adventurous activities",
+  },
+  {
+    id: 8,
+    imgSrc: img8,
+    destTitle: "Taj Mahal",
+    location: "India",
+    grade: "CULTURAL RELAX",
+    fees: "₹30,000",
+    description:
+      "An immense mausoleum of white marble, built-in Agra by Mughal emperor Shah Jahan in memory of his wife Mumtaz, the monument is breathtakingly beautiful. This place is known for its luxurious stays and adventurous activities",
+  },
+  {
+    id: 9,
+    imgSrc: img9,
+    destTitle: "Bali Island",
+    location: "Indonesia",
+    grade: "CULTURAL RELAX",
+    fees: "₹50,000",
+    description:
+      "Bali is an Indonesian Island and one of the best holiday destinations in the Indonesian archipelago. Bali is known for its volcanic mountains, history, art & culture, food, temples and beautiful sandy beaches.",
+  },
 ];
 
 const Main = () => {
@@ -105,7 +118,38 @@ const Main = () => {
       <div className="secContent grid">
         {Data.map(
           ({ id, imgSrc, destTitle, location, grade, fees, description }) => {
-            return <div className="singleDestination"></div>;
+            return (
+              <div key={id} className="singleDestination">
+                <div className="imageDiv">
+                  <img src={imgSrc} alt={destTitle} />
+                </div>
+                <div className="cardInfo">
+                  <h4 className="destTitle">{destTitle}</h4>
+                  <span className="continent flex">
+                    <HiOutlineLocationMarker className="icon" />
+                    <span className="name">{location}</span>
+                  </span>
+                  <div className="fees flex">
+                    <div className="grade">
+                      <span>
+                        {grade}
+                        <small>+1</small>
+                      </span>
+                    </div>
+                    <div className="price">
+                      <h5>{fees}</h5>
+                    </div>
+                  </div>
+
+                  <div className="desc">
+                    <p>{description}</p>
+                  </div>
+                  <button className="btn flex">
+                    DETAILS <HiOutlineClipboardCheck className="icon" />
+                  </button>
+                </div>
+              </div>
+            );
           }
         )}
       </div>

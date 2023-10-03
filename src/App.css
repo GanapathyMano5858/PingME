@@ -12,13 +12,15 @@
   --PrimaryColor: #0073a8;
   --SecondaryColor: #10b5cb;
   --gradientColor: linear-gradient(to right, #10b5cb, #0073a8);
-  --whiteColor: #fff;
-  --blackColor: #000;
-  --textColor: #58585f;
-  --whiteColorDeam: #ededed;
-  --inputColor: #ffffff;
-  --bodyColor: #ffffff;
-  --cardBG: #ffffff;
+  --whiteColor: hsl(0, 0%, 100%);
+  --blackColor: hsl(201, 33%, 16%);
+  --textColor: hsl(240, 4%, 36%);
+  --whiteColorDeam: hsl(0, 0%, 93%);
+  --grayText: rgb(190, 190, 190);
+  --inputColor: rgb(239, 239, 239);
+  --bodyColor: rgb(240, 240, 246);
+  --cardBG: rgb(225, 225, 235);
+  --cardHover: rgb(255, 255, 255);
 }
 
 a {
@@ -86,4 +88,3 @@ body {
 }
 
 /* Guys this is a default styling that will apply to all the sections */
-  
