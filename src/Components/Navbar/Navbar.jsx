@@ -21,7 +21,7 @@ const Navbar = () => {
     <section className="navBarSection">
       <header className="header flex">
         <div className="logoDiv">
-          <a href="#" className="logo flex">
+          <a href="/" className="logo flex">
             <img src={Logo} alt="Logo" style={{ width: "100px" }} />
           </a>
         </div>
@@ -29,48 +29,48 @@ const Navbar = () => {
         <div className={active}>
           <ul className="navLists flex">
             <li className="navItem">
-              <a href="#" className="navLink">
+              <a href="/" className="navLink">
                 Home
               </a>
             </li>
 
             <li className="navItem">
-              <a href="#" className="navLink">
+              <a href="/" className="navLink">
                 Packages
               </a>
             </li>
 
             <li className="navItem">
-              <a href="#" className="navLink">
+              <a href="/" className="navLink">
                 Shop
               </a>
             </li>
 
             <li className="navItem">
-              <a href="#" className="navLink">
+              <a href="/" className="navLink">
                 About
               </a>
             </li>
 
             <li className="navItem">
-              <a href="#" className="navLink">
+              <a href="/" className="navLink">
                 Pages
               </a>
             </li>
 
             <li className="navItem">
-              <a href="#" className="navLink">
+              <a href="/" className="navLink">
                 News
               </a>
             </li>
 
             <li className="navItem">
-              <a href="#" className="navLink">
+              <a href="/" className="navLink">
                 Contact
               </a>
             </li>
             <button className="btn">
-              <a href="#">BOOK NOW</a>
+              <a href="/">BOOK NOW</a>
             </button>
           </ul>
 
