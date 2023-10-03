@@ -161,8 +161,21 @@
 }
 .footer .secContent .footerLinks .linkGroup .footerList:hover {
   color: var(--PrimaryColor);
-  transform: translateX(7px);
+  transform: translateX(5px);
 }
 .footer .secContent .footerLinks .linkGroup .footerList:hover .icon {
   color: var(--SecondaryColor);
+}
+.footer .secContent .footerDiv {
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--SecondaryColor);
+  padding: 0.5rem 2rem;
+}
+.footer .secContent .footerDiv small {
+  font-size: 10px;
+  color: var(--whiteColor);
 }/*# sourceMappingURL=Footer.css.map */

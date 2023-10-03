@@ -1,6 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../../assets/css/Home.css";
-import video from "../../assets/video/home_page.mp4";
+import video1 from "../../assets/video/home_page.mp4";
 import { GrLocation } from "react-icons/gr";
 import { HiFilter } from "react-icons/hi";
 import { FiFacebook } from "react-icons/fi";
@@ -9,17 +9,28 @@ import { FaTripadvisor } from "react-icons/fa";
 import { BsListUl } from "react-icons/bs";
 import { TbApps } from "react-icons/tb";
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 const Home = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <section className="home">
       <div className="overlay"></div>
-      <video src={video} muted autoPlay loop type="video/mp4"></video>
+      <video src={video1} muted autoPlay loop type="video/mp4"></video>
       <div className="homeContent container">
         <div className="textDiv">
-          <span className="smallText">Our Packages</span>
-          <h1 className="homeTitle">Search your Holiday</h1>
+          <span data-Aos="fade-up" className="smallText">
+            Our Packages
+          </span>
+          <h1 data-Aos="fade-up" className="homeTitle">
+            Search your Holiday
+          </h1>
         </div>
-        <div className="cardDiv grid">
+        <div data-Aos="fade-up" className="cardDiv grid">
           <div className="destinationInput">
             <label htmlFor="city">Search your destination:</label>
             <div className="input flex">
@@ -48,7 +59,7 @@ const Home = () => {
             <span>MORE FILTERS</span>
           </div>
         </div>
-        <div className="homeFooterIcons flex">
+        <div data-Aos="fade-up" className="homeFooterIcons flex">
           <div className="rightIcons">
             <FiFacebook className="icon" />
             <BsInstagram className="icon" />
