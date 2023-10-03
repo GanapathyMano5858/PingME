@@ -1,20 +1,32 @@
-import React from "react";
-import "./Navbar.css";
-import Logo from "../../img/PingME_Logo.svg";
-import { AiOutlineCloseSquare } from "react-icons/ai";
+import React, { useState } from "react";
+import "../../assets/css/Navbar.css";
+import Logo from "../../assets/img/PingME_Logo.svg";
+import { AiFillCloseCircle } from "react-icons/ai";
 import { TbGridDots } from "react-icons/tb";
 
 const Navbar = () => {
+  const [active, setActive] = useState("navBar");
+
+  // Function for open a navBar Action
+  const showNav = () => {
+    setActive("navBar activeNavbar");
+  };
+
+  // Function for open a navBar Action
+  const removeNavbar = () => {
+    setActive("navBar");
+  };
+
   return (
     <section className="navBarSection">
       <header className="header flex">
         <div className="logoDiv">
           <a href="#" className="logo flex">
-            <img src={Logo} alt="Logo" style={{ width: "250px" }} />
+            <img src={Logo} alt="Logo" style={{ width: "100px" }} />
           </a>
         </div>
 
-        <div className="navBar">
+        <div className={active}>
           <ul className="navLists flex">
             <li className="navItem">
               <a href="#" className="navLink">
@@ -62,13 +74,12 @@ const Navbar = () => {
             </button>
           </ul>
 
-          <div className="closeNavbar">
-            <AiOutlineCloseSquare className="icon" />
+          <div onClick={removeNavbar} className="closeNavbar">
+            <AiFillCloseCircle className="icon" />
           </div>
-
-          <div className="toggleNavbar">
-            <TbGridDots className="icon" />
-          </div>
+        </div>
+        <div onClick={showNav} className="toggleNavbar">
+          <TbGridDots className="icon" />
         </div>
       </header>
     </section>
