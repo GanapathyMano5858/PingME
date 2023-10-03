@@ -22,7 +22,7 @@ const Navbar = () => {
       <header className="header flex">
         <div className="logoDiv">
           <a href="/" className="logo flex">
-            <img src={Logo} alt="Logo" style={{ width: "100px" }} />
+            <img src={Logo} alt="Logo" style={{ width: "150px" }} />
           </a>
         </div>
 

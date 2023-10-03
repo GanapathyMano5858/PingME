@@ -202,3 +202,25 @@
     }
   }
 }
+
+@media screen and (min-width: 500px) {
+  .footer {
+    .secContent {
+      .footerCard {
+        .footerLinks {
+          grid-template-columns: repeat(3, 1fr);
+          padding-bottom: 1rem;
+        }
+        .footerDiv {
+          justify-content: space-between;
+          flex-direction: row;
+
+          small {
+            font-size: 14px;
+            color: var(--whiteColor);
+          }
+        }
+      }
+    }
+  }
+}
