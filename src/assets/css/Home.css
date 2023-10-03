@@ -1,1 +1,49 @@
-/*# sourceMappingURL=Home.css.map */
+.home {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+.home .overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgb(47, 106, 127);
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  mix-blend-mode: hard-light;
+}
+.home video {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  object-fit: cover;
+}
+.home .homeContent {
+  width: 100%;
+  height: max-content;
+  padding: 8rem 1.5rem 3rem;
+  display: flex;
+  row-gap: 3rem;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  margin: auto;
+  color: var(--whiteColor);
+  z-index: 100;
+}
+.home .homeContent .textDiv {
+  padding: 2rem 0;
+}
+.home .homeContent .textDiv .smallText {
+  font-size: 13px;
+  text-transform: uppercase;
+}
+.home .homeContent .textDiv .homeTitle {
+  position: relative;
+  font-size: 1.8rem;
+}/*# sourceMappingURL=Home.css.map */
