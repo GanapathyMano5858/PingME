@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/PingME/static/css/main.f31cdd93.css",
+    "main.js": "/PingME/static/js/main.96803ed0.js",
+    "static/media/home_page.mp4": "/PingME/static/media/home_page.4efcbe278d8d061270ed.mp4",
+    "static/media/footer_page.mp4": "/PingME/static/media/footer_page.f6a3ffc85a656b8bffde.mp4",
+    "static/media/img4.jpg": "/PingME/static/media/img4.3b9429a0ef1d822f4e10.jpg",
+    "static/media/img6.jpg": "/PingME/static/media/img6.611e7ea8853c3e01ea12.jpg",
+    "static/media/img7.jpg": "/PingME/static/media/img7.334fbf748d3b18cb901a.jpg",
+    "static/media/img1.jpg": "/PingME/static/media/img1.43e56294743fc752dfc9.jpg",
+    "static/media/img9.jpg": "/PingME/static/media/img9.77a1d26d7e14a6f91fb7.jpg",
+    "static/media/img2.jpg": "/PingME/static/media/img2.5bb535ef6a4f42abdc39.jpg",
+    "static/media/img5.jpg": "/PingME/static/media/img5.a6ccc42ca4c4b5273574.jpg",
+    "static/media/img8.jpg": "/PingME/static/media/img8.99e6eb5f6369c3fe8972.jpg",
+    "static/media/img3.jpg": "/PingME/static/media/img3.c750b2fc571aa315a4b3.jpg",
+    "static/media/PingME_Logo.svg": "/PingME/static/media/PingME_Logo.618cc8e2542a328df780972381322241.svg",
+    "index.html": "/PingME/index.html",
+    "main.f31cdd93.css.map": "/PingME/static/css/main.f31cdd93.css.map",
+    "main.96803ed0.js.map": "/PingME/static/js/main.96803ed0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f31cdd93.css",
+    "static/js/main.96803ed0.js"
+  ]
+}
