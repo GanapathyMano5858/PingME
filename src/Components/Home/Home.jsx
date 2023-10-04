@@ -23,14 +23,14 @@ const Home = () => {
       <video src={video1} muted autoPlay loop type="video/mp4"></video>
       <div className="homeContent container">
         <div className="textDiv">
-          <span data-Aos="fade-up" className="smallText">
+          <span data-aos="fade-up" className="smallText">
             Our Packages
           </span>
-          <h1 data-Aos="fade-up" className="homeTitle">
+          <h1 data-aos="fade-up" className="homeTitle">
             Search your Holiday
           </h1>
         </div>
-        <div data-Aos="fade-up" className="cardDiv grid">
+        <div data-aos="fade-up" className="cardDiv grid">
           <div className="destinationInput">
             <label htmlFor="city">Search your destination:</label>
             <div className="input flex">
@@ -59,7 +59,7 @@ const Home = () => {
             <span>MORE FILTERS</span>
           </div>
         </div>
-        <div data-Aos="fade-up" className="homeFooterIcons flex">
+        <div data-aos="fade-up" className="homeFooterIcons flex">
           <div className="rightIcons">
             <FiFacebook className="icon" />
             <BsInstagram className="icon" />

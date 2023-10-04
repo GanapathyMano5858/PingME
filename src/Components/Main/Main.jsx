@@ -126,7 +126,7 @@ const Main = () => {
         {Data.map(
           ({ id, imgSrc, destTitle, location, grade, fees, description }) => {
             return (
-              <div key={id} data-Aos="fade-up" className="singleDestination">
+              <div key={id} data-aos="fade-up" className="singleDestination">
                 <div className="imageDiv">
                   <img src={imgSrc} alt={destTitle} />
                 </div>

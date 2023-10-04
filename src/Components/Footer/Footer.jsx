@@ -29,18 +29,18 @@ const Footer = () => {
 
       <div className="secContent container">
         <div className="contactDiv flex">
-          <div data-aos="face-up" className="text">
+          <div data-aos="fade-up" className="text">
             <small>KEEP IN TOUCH</small>
             <h2>Travel with us</h2>
           </div>
 
           <div className="inputDiv flex">
             <input
-              data-aos="face-up"
+              data-aos="fade-up"
               type="text"
               placeholder="Enter Email Address"
             />
-            <button data-aos="face-up" className="btn flex" type="submit">
+            <button data-aos="fade-up" className="btn flex" type="submit">
               SEND <FiSend className="icon" />
             </button>
           </div>
@@ -59,18 +59,18 @@ const Footer = () => {
               ipsum dolorum possimus porro accusantium tenetur suscipit natus
               nostrum est asperiores harum iusto.
             </div>
-            <div data-aos="face-up" className="footerSocials flex">
+            <div data-aos="fade-up" className="footerSocials flex">
               <AiOutlineTwitter className="icon" />
               <AiFillYoutube className="icon" />
               <AiOutlineInstagram className="icon" />
               <FaTripadvisor className="icon" />
             </div>
           </div>
-          <div data-aos="face-up" className="footerLinks grid">
+          <div data-aos="fade-up" className="footerLinks grid">
             {/* Group One */}
             <div
-              data-aos="face-up"
-              data-aos-duration="4000"
+              data-aos="fade-up"
+              data-aos-duration="3000"
               className="linkGroup"
             >
               <span className="groupTitle">OUR AGENCY</span>
@@ -101,7 +101,7 @@ const Footer = () => {
             </div>
             {/* Group Two */}
             <div
-              data-aos="face-up"
+              data-aos="fade-up"
               data-aos-duration="4000"
               className="linkGroup"
             >
@@ -133,8 +133,8 @@ const Footer = () => {
             </div>
             {/* Group Three */}
             <div
-              data-aos="face-up"
-              data-aos-duration="4000"
+              data-aos="fade-up"
+              data-aos-duration="5000"
               className="linkGroup"
             >
               <span className="groupTitle">LAST MINUTE</span>
